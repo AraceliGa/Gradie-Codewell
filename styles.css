@@ -24,7 +24,7 @@ body{
     width: 375px;
     height: 470px;
     background-color: var(--color-principal);
-    background-image: url(/imagenes/iphone.png);
+    background-image: url(imagenes/iphone.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
