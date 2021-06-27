@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-principal:#023243;
+    --color-title:#ffffff;
+    --color-subtitle:#86BFD3;
+    --datails:#bcbcbc;
+}
+body{
+    font-family:'Roboto', sans-serif; ;
+    font-size: 62.5%;
+}
+.bloques{
+    width: 100%;
+    min-width: 446px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.bloqueuno {
+    width: 375px;
+    height: 470px;
+    background-color: var(--color-principal);
+    background-image: url(/imagenes/iphone.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bloqueuno h1 {
+    color: var(--color-title);
+    margin: 30px 0 10px 0;
+    font-size: 1.9rem;
+    font-weight:  bold;
+}
+.bloqueuno h3{
+    color: var(--color-subtitle);
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+.bloquedos {
+    width: 375px;
+    height: 470px;
+    background-color:var(--color-title);
+    border: 1px solid var(--datails);
+    padding: 45px 50px;
+}
+.bloquedos .form-title{
+    font-size: .9rem;
+    margin: 10px 0 0 0;
+}
+.bloquedos h2 {
+    font-size: 1.9rem;
+    font-weight: normal;
+    padding: 0 0 15px 0;
+}
+.bloquedos input{
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.bloquedos input:hover{
+    transform: scale(1.1);
+}
+.bloquedos input::placeholder{
+    color: var(--datails);
+}
+.bloquedos .form {
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--datails);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    margin: 15px 0 10px 0;
+    font-weight: lighter;
+}
+.bloquedos label{
+    font-size: 1.1rem;
+    display: flex;
+    font-weight: lighter;
+    line-height: 1.5;
+    font-weight: 100;
+}
+.bloquedos .terms p {
+    margin: 3px;
+}
+
+.bloquedos button {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-principal);
+    color: var(--color-title);   
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.bloquedos button:hover {
+    transform: scale(1.1);
+}
+a{
+    color: var(--color-principal);
+    font-weight: bold;
+}
